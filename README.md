@@ -20,11 +20,16 @@ framework:
 2. **[`fixtures/`](fixtures/)** — the deterministic seed fixtures
    (6/13 → 40/500 → 200/5,000 customers/invoices), so arms hold
    byte-identical data.
-3. **[`counting-rules.md`](counting-rules.md)** — the pre-registered
+3. **[`scoring/`](scoring/)** — the API-benchmark scoring receipts:
+   the violation taxonomy as scored, the exact linter that produced
+   the published violation counts (with its self-test), the verbatim
+   judge-model prompts and configuration, and the full per-cell
+   aggregate results table (arms × models × suites).
+4. **[`counting-rules.md`](counting-rules.md)** — the pre-registered
    metric definitions (blast radius, knowledge accounting,
    corrections, bolt-ons, staleness, hosted latency) and the 5-class
    corrections rubric.
-4. **The protocol invariants** (bottom of counting-rules.md) — fresh
+5. **The protocol invariants** (bottom of counting-rules.md) — fresh
    agent per arm, verbatim tasks, harness-verified acceptance,
    pre-registration, transcripts-over-self-reports, immutable audits,
    pre/post tags, publish the misses.
