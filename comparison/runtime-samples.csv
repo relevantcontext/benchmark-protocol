@@ -1,0 +1,407 @@
+side,metric,sample_index,value_ms,status,note
+nextjs,sort_settled_ms,1,141,included,MessageChannel-driven detection; rows-container scope; quiet>=250ms
+nextjs,sort_settled_ms,2,161,included,MessageChannel-driven detection; rows-container scope; quiet>=250ms
+nextjs,sort_settled_ms,3,453,included,MessageChannel-driven detection; rows-container scope; quiet>=250ms
+nextjs,sort_settled_ms,4,114,included,MessageChannel-driven detection; rows-container scope; quiet>=250ms
+nextjs,sort_settled_ms,5,120,included,MessageChannel-driven detection; rows-container scope; quiet>=250ms
+nextjs,sort_settled_ms,6,106,included,MessageChannel-driven detection; rows-container scope; quiet>=250ms
+nextjs,sort_settled_ms,7,131,included,MessageChannel-driven detection; rows-container scope; quiet>=250ms
+nextjs,sort_settled_ms,8,132,included,MessageChannel-driven detection; rows-container scope; quiet>=250ms
+nextjs,sort_settled_ms,9,133,included,MessageChannel-driven detection; rows-container scope; quiet>=250ms
+nextjs,sort_settled_ms,10,181,included,MessageChannel-driven detection; rows-container scope; quiet>=250ms
+nextjs,sort_settled_ms,11,105,included,MessageChannel-driven detection; rows-container scope; quiet>=250ms
+nextjs,sort_settled_ms,12,124,included,MessageChannel-driven detection; rows-container scope; quiet>=250ms
+nextjs,sort_settled_ms,13,116,included,MessageChannel-driven detection; rows-container scope; quiet>=250ms
+nextjs,sort_settled_ms,14,106,included,MessageChannel-driven detection; rows-container scope; quiet>=250ms
+nextjs,sort_settled_ms,15,107,included,MessageChannel-driven detection; rows-container scope; quiet>=250ms
+nextjs,sort_settled_ms,16,133,included,MessageChannel-driven detection; rows-container scope; quiet>=250ms
+nextjs,sort_settled_ms,17,168,included,MessageChannel-driven detection; rows-container scope; quiet>=250ms
+nextjs,sort_settled_ms,18,134,included,MessageChannel-driven detection; rows-container scope; quiet>=250ms
+nextjs,sort_settled_ms,19,138,included,MessageChannel-driven detection; rows-container scope; quiet>=250ms
+nextjs,sort_settled_ms,20,130,included,MessageChannel-driven detection; rows-container scope; quiet>=250ms
+nextjs,page_jump_settled_ms,1,102,included,deep jump page 1 <-> last; same probe
+nextjs,page_jump_settled_ms,2,125,included,deep jump page 1 <-> last; same probe
+nextjs,page_jump_settled_ms,3,391,included,deep jump page 1 <-> last; same probe
+nextjs,page_jump_settled_ms,4,175,included,deep jump page 1 <-> last; same probe
+nextjs,page_jump_settled_ms,5,117,included,deep jump page 1 <-> last; same probe
+nextjs,page_jump_settled_ms,6,137,included,deep jump page 1 <-> last; same probe
+nextjs,page_jump_settled_ms,7,144,included,deep jump page 1 <-> last; same probe
+nextjs,page_jump_settled_ms,8,137,included,deep jump page 1 <-> last; same probe
+nextjs,page_jump_settled_ms,9,124,included,deep jump page 1 <-> last; same probe
+nextjs,page_jump_settled_ms,10,294,included,deep jump page 1 <-> last; same probe
+nextjs,page_jump_settled_ms,11,116,included,deep jump page 1 <-> last; same probe
+nextjs,page_jump_settled_ms,12,206,included,deep jump page 1 <-> last; same probe
+nextjs,page_jump_settled_ms,13,105,included,deep jump page 1 <-> last; same probe
+nextjs,page_jump_settled_ms,14,148,included,deep jump page 1 <-> last; same probe
+nextjs,page_jump_settled_ms,15,128,included,deep jump page 1 <-> last; same probe
+nextjs,page_jump_settled_ms,16,137,included,deep jump page 1 <-> last; same probe
+nextjs,page_jump_settled_ms,17,125,included,deep jump page 1 <-> last; same probe
+nextjs,page_jump_settled_ms,18,119,included,deep jump page 1 <-> last; same probe
+nextjs,page_jump_settled_ms,19,109,included,deep jump page 1 <-> last; same probe
+nextjs,page_jump_settled_ms,20,131,included,deep jump page 1 <-> last; same probe
+nextjs,toggle_first_row_mutation_ms,1,12,included,click -> first mutation in clicked row
+nextjs,toggle_first_row_mutation_ms,2,13,included,click -> first mutation in clicked row
+nextjs,toggle_first_row_mutation_ms,3,11,included,click -> first mutation in clicked row
+nextjs,toggle_first_row_mutation_ms,4,8,included,click -> first mutation in clicked row
+nextjs,toggle_first_row_mutation_ms,5,12,included,click -> first mutation in clicked row
+nextjs,toggle_first_row_mutation_ms,6,13,included,click -> first mutation in clicked row
+nextjs,toggle_first_row_mutation_ms,7,8,included,click -> first mutation in clicked row
+nextjs,toggle_first_row_mutation_ms,8,9,included,click -> first mutation in clicked row
+nextjs,toggle_first_row_mutation_ms,9,8,included,click -> first mutation in clicked row
+nextjs,toggle_first_row_mutation_ms,10,11,included,click -> first mutation in clicked row
+nextjs,toggle_first_row_mutation_ms,11,11,included,click -> first mutation in clicked row
+nextjs,toggle_first_row_mutation_ms,12,14,included,click -> first mutation in clicked row
+nextjs,toggle_first_row_mutation_ms,13,10,included,click -> first mutation in clicked row
+nextjs,toggle_first_row_mutation_ms,14,8,included,click -> first mutation in clicked row
+nextjs,toggle_first_row_mutation_ms,15,10,included,click -> first mutation in clicked row
+nextjs,toggle_first_row_mutation_ms,16,9,included,click -> first mutation in clicked row
+nextjs,toggle_first_row_mutation_ms,17,5,included,click -> first mutation in clicked row
+nextjs,toggle_first_row_mutation_ms,18,12,included,click -> first mutation in clicked row
+nextjs,toggle_first_row_mutation_ms,19,14,included,click -> first mutation in clicked row
+nextjs,toggle_first_row_mutation_ms,20,8,included,click -> first mutation in clicked row
+nextjs,toggle_first_row_mutation_ms,21,8,included,click -> first mutation in clicked row
+nextjs,toggle_first_row_mutation_ms,22,13,included,click -> first mutation in clicked row
+nextjs,toggle_first_row_mutation_ms,23,5,included,click -> first mutation in clicked row
+nextjs,toggle_first_row_mutation_ms,24,11,included,click -> first mutation in clicked row
+nextjs,coldload_rows_present_ms,1,101,included,"same-origin iframe, observer attached from creation; navigationStart -> >=3 data rows in document"
+nextjs,coldload_rows_present_ms,2,114,included,"same-origin iframe, observer attached from creation; navigationStart -> >=3 data rows in document"
+nextjs,coldload_rows_present_ms,3,115,included,"same-origin iframe, observer attached from creation; navigationStart -> >=3 data rows in document"
+nextjs,coldload_rows_present_ms,4,112,included,"same-origin iframe, observer attached from creation; navigationStart -> >=3 data rows in document"
+nextjs,coldload_rows_present_ms,5,134,included,"same-origin iframe, observer attached from creation; navigationStart -> >=3 data rows in document"
+nextjs,coldload_rows_present_ms,6,105,included,"same-origin iframe, observer attached from creation; navigationStart -> >=3 data rows in document"
+nextjs,coldload_rows_present_ms,7,121,included,"same-origin iframe, observer attached from creation; navigationStart -> >=3 data rows in document"
+nextjs,coldload_rows_present_ms,8,111,included,"same-origin iframe, observer attached from creation; navigationStart -> >=3 data rows in document"
+nextjs,coldload_rows_present_ms,9,98,included,"same-origin iframe, observer attached from creation; navigationStart -> >=3 data rows in document"
+nextjs,coldload_rows_present_ms,10,127,included,"same-origin iframe, observer attached from creation; navigationStart -> >=3 data rows in document"
+nextjs,coldload_rows_present_ms,11,118,included,"same-origin iframe, observer attached from creation; navigationStart -> >=3 data rows in document"
+nextjs,coldload_rows_present_ms,12,101,included,"same-origin iframe, observer attached from creation; navigationStart -> >=3 data rows in document"
+nextjs,coldload_rows_present_ms,13,107,included,"same-origin iframe, observer attached from creation; navigationStart -> >=3 data rows in document"
+nextjs,coldload_rows_present_ms,14,115,included,"same-origin iframe, observer attached from creation; navigationStart -> >=3 data rows in document"
+nextjs,coldload_rows_present_ms,15,199,included,"same-origin iframe, observer attached from creation; navigationStart -> >=3 data rows in document"
+nextjs,coldload_rows_present_ms,16,122,included,"same-origin iframe, observer attached from creation; navigationStart -> >=3 data rows in document"
+nextjs,coldload_rows_present_ms,17,121,included,"same-origin iframe, observer attached from creation; navigationStart -> >=3 data rows in document"
+nextjs,coldload_rows_present_ms,18,109,included,"same-origin iframe, observer attached from creation; navigationStart -> >=3 data rows in document"
+nextjs,coldload_rows_present_ms,19,145,included,"same-origin iframe, observer attached from creation; navigationStart -> >=3 data rows in document"
+nextjs,coldload_rows_present_ms,20,128,included,"same-origin iframe, observer attached from creation; navigationStart -> >=3 data rows in document"
+nextjs,coldload_ttfb_ms,1,28,included,paired with coldload_rows_present samples
+nextjs,coldload_ttfb_ms,2,28,included,paired with coldload_rows_present samples
+nextjs,coldload_ttfb_ms,3,27,included,paired with coldload_rows_present samples
+nextjs,coldload_ttfb_ms,4,29,included,paired with coldload_rows_present samples
+nextjs,coldload_ttfb_ms,5,30,included,paired with coldload_rows_present samples
+nextjs,coldload_ttfb_ms,6,27,included,paired with coldload_rows_present samples
+nextjs,coldload_ttfb_ms,7,34,included,paired with coldload_rows_present samples
+nextjs,coldload_ttfb_ms,8,26,included,paired with coldload_rows_present samples
+nextjs,coldload_ttfb_ms,9,26,included,paired with coldload_rows_present samples
+nextjs,coldload_ttfb_ms,10,35,included,paired with coldload_rows_present samples
+nextjs,coldload_ttfb_ms,11,31,included,paired with coldload_rows_present samples
+nextjs,coldload_ttfb_ms,12,27,included,paired with coldload_rows_present samples
+nextjs,coldload_ttfb_ms,13,31,included,paired with coldload_rows_present samples
+nextjs,coldload_ttfb_ms,14,32,included,paired with coldload_rows_present samples
+nextjs,coldload_ttfb_ms,15,37,included,paired with coldload_rows_present samples
+nextjs,coldload_ttfb_ms,16,49,included,paired with coldload_rows_present samples
+nextjs,coldload_ttfb_ms,17,47,included,paired with coldload_rows_present samples
+nextjs,coldload_ttfb_ms,18,28,included,paired with coldload_rows_present samples
+nextjs,coldload_ttfb_ms,19,42,included,paired with coldload_rows_present samples
+nextjs,coldload_ttfb_ms,20,42,included,paired with coldload_rows_present samples
+nextjs,coldload_dcl_ms,1,123,included,recorded for samples 11-20 only (probe v2 added readyState wait)
+nextjs,coldload_dcl_ms,2,108,included,recorded for samples 11-20 only (probe v2 added readyState wait)
+nextjs,coldload_dcl_ms,3,124,included,recorded for samples 11-20 only (probe v2 added readyState wait)
+nextjs,coldload_dcl_ms,4,122,included,recorded for samples 11-20 only (probe v2 added readyState wait)
+nextjs,coldload_dcl_ms,5,199,included,recorded for samples 11-20 only (probe v2 added readyState wait)
+nextjs,coldload_dcl_ms,6,123,included,recorded for samples 11-20 only (probe v2 added readyState wait)
+nextjs,coldload_dcl_ms,7,131,included,recorded for samples 11-20 only (probe v2 added readyState wait)
+nextjs,coldload_dcl_ms,8,113,included,recorded for samples 11-20 only (probe v2 added readyState wait)
+nextjs,coldload_dcl_ms,9,146,included,recorded for samples 11-20 only (probe v2 added readyState wait)
+nextjs,coldload_dcl_ms,10,138,included,recorded for samples 11-20 only (probe v2 added readyState wait)
+nextjs,coldload_loadend_ms,1,290,included,recorded for samples 11-20 only
+nextjs,coldload_loadend_ms,2,143,included,recorded for samples 11-20 only
+nextjs,coldload_loadend_ms,3,136,included,recorded for samples 11-20 only
+nextjs,coldload_loadend_ms,4,129,included,recorded for samples 11-20 only
+nextjs,coldload_loadend_ms,5,238,included,recorded for samples 11-20 only
+nextjs,coldload_loadend_ms,6,156,included,recorded for samples 11-20 only
+nextjs,coldload_loadend_ms,7,180,included,recorded for samples 11-20 only
+nextjs,coldload_loadend_ms,8,146,included,recorded for samples 11-20 only
+nextjs,coldload_loadend_ms,9,174,included,recorded for samples 11-20 only
+nextjs,coldload_loadend_ms,10,180,included,recorded for samples 11-20 only
+spynejs,sort_settled_ms,1,87,included,REAL pointer clicks (see README: event-target precision); same measure code
+spynejs,sort_settled_ms,2,26,included,REAL pointer clicks (see README: event-target precision); same measure code
+spynejs,sort_settled_ms,3,23,included,REAL pointer clicks (see README: event-target precision); same measure code
+spynejs,sort_settled_ms,4,24,included,REAL pointer clicks (see README: event-target precision); same measure code
+spynejs,sort_settled_ms,5,25,included,REAL pointer clicks (see README: event-target precision); same measure code
+spynejs,sort_settled_ms,6,22,included,REAL pointer clicks (see README: event-target precision); same measure code
+spynejs,sort_settled_ms,7,23,included,REAL pointer clicks (see README: event-target precision); same measure code
+spynejs,sort_settled_ms,8,21,included,REAL pointer clicks (see README: event-target precision); same measure code
+spynejs,sort_settled_ms,9,16,included,REAL pointer clicks (see README: event-target precision); same measure code
+spynejs,sort_settled_ms,10,24,included,REAL pointer clicks (see README: event-target precision); same measure code
+spynejs,sort_settled_ms,11,23,included,REAL pointer clicks (see README: event-target precision); same measure code
+spynejs,sort_settled_ms,12,25,included,REAL pointer clicks (see README: event-target precision); same measure code
+spynejs,sort_settled_ms,13,26,included,REAL pointer clicks (see README: event-target precision); same measure code
+spynejs,sort_settled_ms,14,200,included,REAL pointer clicks (see README: event-target precision); same measure code
+spynejs,sort_settled_ms,15,21,included,REAL pointer clicks (see README: event-target precision); same measure code
+spynejs,sort_settled_ms,16,25,included,REAL pointer clicks (see README: event-target precision); same measure code
+spynejs,sort_settled_ms,17,272,included,REAL pointer clicks (see README: event-target precision); same measure code
+spynejs,sort_settled_ms,18,21,included,REAL pointer clicks (see README: event-target precision); same measure code
+spynejs,sort_settled_ms,19,23,included,REAL pointer clicks (see README: event-target precision); same measure code
+spynejs,sort_settled_ms,20,142,included,REAL pointer clicks (see README: event-target precision); same measure code
+spynejs,page_jump_settled_ms,1,11,included,deep jump page 1 <-> last
+spynejs,page_jump_settled_ms,2,39,included,deep jump page 1 <-> last
+spynejs,page_jump_settled_ms,3,148,included,deep jump page 1 <-> last
+spynejs,page_jump_settled_ms,4,120,included,deep jump page 1 <-> last
+spynejs,page_jump_settled_ms,5,201,included,deep jump page 1 <-> last
+spynejs,page_jump_settled_ms,6,72,included,deep jump page 1 <-> last
+spynejs,page_jump_settled_ms,7,29,included,deep jump page 1 <-> last
+spynejs,page_jump_settled_ms,8,143,included,deep jump page 1 <-> last
+spynejs,page_jump_settled_ms,9,28,included,deep jump page 1 <-> last
+spynejs,page_jump_settled_ms,10,187,included,deep jump page 1 <-> last
+spynejs,page_jump_settled_ms,11,30,included,deep jump page 1 <-> last
+spynejs,page_jump_settled_ms,12,37,included,deep jump page 1 <-> last
+spynejs,page_jump_settled_ms,13,160,included,deep jump page 1 <-> last
+spynejs,page_jump_settled_ms,14,37,included,deep jump page 1 <-> last
+spynejs,page_jump_settled_ms,15,184,included,deep jump page 1 <-> last
+spynejs,page_jump_settled_ms,16,42,included,deep jump page 1 <-> last
+spynejs,page_jump_settled_ms,17,44,included,deep jump page 1 <-> last
+spynejs,page_jump_settled_ms,18,163,included,deep jump page 1 <-> last
+spynejs,page_jump_settled_ms,19,44,included,deep jump page 1 <-> last
+spynejs,page_jump_settled_ms,20,219,included,deep jump page 1 <-> last
+spynejs,toggle_first_row_mutation_ms,1,20,included,click -> first mutation in clicked row
+spynejs,toggle_first_row_mutation_ms,2,84,included,click -> first mutation in clicked row
+spynejs,toggle_first_row_mutation_ms,3,77,included,click -> first mutation in clicked row
+spynejs,toggle_first_row_mutation_ms,4,67,included,click -> first mutation in clicked row
+spynejs,toggle_first_row_mutation_ms,5,18,included,click -> first mutation in clicked row
+spynejs,toggle_first_row_mutation_ms,6,67,included,click -> first mutation in clicked row
+spynejs,toggle_first_row_mutation_ms,7,17,included,click -> first mutation in clicked row
+spynejs,toggle_first_row_mutation_ms,8,115,included,click -> first mutation in clicked row
+spynejs,toggle_first_row_mutation_ms,9,69,included,click -> first mutation in clicked row
+spynejs,toggle_first_row_mutation_ms,10,68,included,click -> first mutation in clicked row
+spynejs,toggle_first_row_mutation_ms,11,72,included,click -> first mutation in clicked row
+spynejs,toggle_first_row_mutation_ms,12,93,included,click -> first mutation in clicked row
+spynejs,toggle_first_row_mutation_ms,13,31,included,click -> first mutation in clicked row
+spynejs,toggle_first_row_mutation_ms,14,26,included,click -> first mutation in clicked row
+spynejs,toggle_first_row_mutation_ms,15,70,included,click -> first mutation in clicked row
+spynejs,toggle_first_row_mutation_ms,16,66,included,click -> first mutation in clicked row
+spynejs,toggle_first_row_mutation_ms,17,69,included,click -> first mutation in clicked row
+spynejs,toggle_first_row_mutation_ms,18,80,included,click -> first mutation in clicked row
+spynejs,toggle_first_row_mutation_ms,19,31,included,click -> first mutation in clicked row
+spynejs,toggle_first_row_mutation_ms,20,83,included,click -> first mutation in clicked row
+spynejs,toggle_first_row_mutation_ms,21,78,included,click -> first mutation in clicked row
+spynejs,toggle_first_row_mutation_ms,22,68,included,click -> first mutation in clicked row
+spynejs,toggle_first_row_mutation_ms,23,68,included,click -> first mutation in clicked row
+spynejs,toggle_first_row_mutation_ms,24,68,included,click -> first mutation in clicked row
+spynejs,coldload_bootstrap_complete_ms,1,766,included,top-level cache-busted document loads; /api/bootstrap responseEnd (~460KB)
+spynejs,coldload_bootstrap_complete_ms,2,755,included,top-level cache-busted document loads; /api/bootstrap responseEnd (~460KB)
+spynejs,coldload_bootstrap_complete_ms,3,786,included,top-level cache-busted document loads; /api/bootstrap responseEnd (~460KB)
+spynejs,coldload_bootstrap_complete_ms,4,1004,included,top-level cache-busted document loads; /api/bootstrap responseEnd (~460KB)
+spynejs,coldload_bootstrap_complete_ms,5,741,included,top-level cache-busted document loads; /api/bootstrap responseEnd (~460KB)
+spynejs,coldload_bootstrap_complete_ms,6,735,included,top-level cache-busted document loads; /api/bootstrap responseEnd (~460KB)
+spynejs,coldload_bootstrap_complete_ms,7,769,included,top-level cache-busted document loads; /api/bootstrap responseEnd (~460KB)
+spynejs,coldload_bootstrap_complete_ms,8,822,included,top-level cache-busted document loads; /api/bootstrap responseEnd (~460KB)
+spynejs,coldload_bootstrap_complete_ms,9,824,included,top-level cache-busted document loads; /api/bootstrap responseEnd (~460KB)
+spynejs,coldload_bootstrap_complete_ms,10,1191,included,top-level cache-busted document loads; /api/bootstrap responseEnd (~460KB)
+spynejs,coldload_bootstrap_complete_ms,11,539,included,top-level cache-busted document loads; /api/bootstrap responseEnd (~460KB)
+spynejs,coldload_bootstrap_complete_ms,12,775,included,top-level cache-busted document loads; /api/bootstrap responseEnd (~460KB)
+spynejs,coldload_ttfb_ms,1,106,included,paired with bootstrap-complete samples
+spynejs,coldload_ttfb_ms,2,75,included,paired with bootstrap-complete samples
+spynejs,coldload_ttfb_ms,3,78,included,paired with bootstrap-complete samples
+spynejs,coldload_ttfb_ms,4,85,included,paired with bootstrap-complete samples
+spynejs,coldload_ttfb_ms,5,99,included,paired with bootstrap-complete samples
+spynejs,coldload_ttfb_ms,6,72,included,paired with bootstrap-complete samples
+spynejs,coldload_ttfb_ms,7,131,included,paired with bootstrap-complete samples
+spynejs,coldload_ttfb_ms,8,78,included,paired with bootstrap-complete samples
+spynejs,coldload_ttfb_ms,9,170,included,paired with bootstrap-complete samples
+spynejs,coldload_ttfb_ms,10,249,included,paired with bootstrap-complete samples
+spynejs,coldload_ttfb_ms,11,79,included,paired with bootstrap-complete samples
+spynejs,coldload_ttfb_ms,12,85,included,paired with bootstrap-complete samples
+spynejs,coldload_dcl_ms,1,174,included,paired with bootstrap-complete samples
+spynejs,coldload_dcl_ms,2,134,included,paired with bootstrap-complete samples
+spynejs,coldload_dcl_ms,3,127,included,paired with bootstrap-complete samples
+spynejs,coldload_dcl_ms,4,139,included,paired with bootstrap-complete samples
+spynejs,coldload_dcl_ms,5,150,included,paired with bootstrap-complete samples
+spynejs,coldload_dcl_ms,6,135,included,paired with bootstrap-complete samples
+spynejs,coldload_dcl_ms,7,204,included,paired with bootstrap-complete samples
+spynejs,coldload_dcl_ms,8,126,included,paired with bootstrap-complete samples
+spynejs,coldload_dcl_ms,9,222,included,paired with bootstrap-complete samples
+spynejs,coldload_dcl_ms,10,300,included,paired with bootstrap-complete samples
+spynejs,coldload_dcl_ms,11,129,included,paired with bootstrap-complete samples
+spynejs,coldload_dcl_ms,12,153,included,paired with bootstrap-complete samples
+spynejs,coldload_rows_present_ms,1,9275,excluded-artifact,offscreen-iframe rAF throttling; app renders on rAF; hidden-iframe batch
+spynejs,coldload_rows_present_ms,2,9108,excluded-artifact,offscreen-iframe rAF throttling; app renders on rAF; hidden-iframe batch
+spynejs,coldload_rows_present_ms,3,8711,excluded-artifact,offscreen-iframe rAF throttling; app renders on rAF; hidden-iframe batch
+spynejs,coldload_rows_present_ms,4,8861,excluded-artifact,offscreen-iframe rAF throttling; app renders on rAF; hidden-iframe batch
+spynejs,coldload_dcl_ms,1,309,excluded-artifact,paired with hidden-iframe batch above
+spynejs,coldload_dcl_ms,2,200,excluded-artifact,paired with hidden-iframe batch above
+spynejs,coldload_dcl_ms,3,216,excluded-artifact,paired with hidden-iframe batch above
+spynejs,coldload_dcl_ms,4,166,excluded-artifact,paired with hidden-iframe batch above
+spynejs,coldload_ttfb_ms,1,81,excluded-artifact,paired with hidden-iframe batch above
+spynejs,coldload_ttfb_ms,2,83,excluded-artifact,paired with hidden-iframe batch above
+spynejs,coldload_ttfb_ms,3,85,excluded-artifact,paired with hidden-iframe batch above
+spynejs,coldload_ttfb_ms,4,71,excluded-artifact,paired with hidden-iframe batch above
+spynejs,coldload_rows_present_ms,1,9564,excluded-artifact,"same artifact persisted with visible iframe; embedded-context rendering, not app behavior (top-level loads ~772ms p50)"
+spynejs,coldload_rows_present_ms,2,9229,excluded-artifact,"same artifact persisted with visible iframe; embedded-context rendering, not app behavior (top-level loads ~772ms p50)"
+spynejs,coldload_rows_present_ms,3,9061,excluded-artifact,"same artifact persisted with visible iframe; embedded-context rendering, not app behavior (top-level loads ~772ms p50)"
+spynejs,coldload_rows_present_ms,4,7290,excluded-artifact,"same artifact persisted with visible iframe; embedded-context rendering, not app behavior (top-level loads ~772ms p50)"
+spynejs,coldload_dcl_ms,1,212,excluded-artifact,paired with visible-iframe batch above
+spynejs,coldload_dcl_ms,2,201,excluded-artifact,paired with visible-iframe batch above
+spynejs,coldload_dcl_ms,3,205,excluded-artifact,paired with visible-iframe batch above
+spynejs,coldload_dcl_ms,4,193,excluded-artifact,paired with visible-iframe batch above
+spynejs,coldload_ttfb_ms,1,89,excluded-artifact,paired with visible-iframe batch above
+spynejs,coldload_ttfb_ms,2,73,excluded-artifact,paired with visible-iframe batch above
+spynejs,coldload_ttfb_ms,3,77,excluded-artifact,paired with visible-iframe batch above
+spynejs,coldload_ttfb_ms,4,106,excluded-artifact,paired with visible-iframe batch above
+nextjs,sort_settled_ms,1,161,superseded-method,earlier interval-timer detection (throttle-exposed); consistent with MC set; superseded by it
+nextjs,sort_settled_ms,2,133,superseded-method,earlier interval-timer detection (throttle-exposed); consistent with MC set; superseded by it
+nextjs,sort_settled_ms,3,141,superseded-method,earlier interval-timer detection (throttle-exposed); consistent with MC set; superseded by it
+nextjs,sort_settled_ms,4,116,superseded-method,earlier interval-timer detection (throttle-exposed); consistent with MC set; superseded by it
+nextjs,sort_settled_ms,5,175,superseded-method,earlier interval-timer detection (throttle-exposed); consistent with MC set; superseded by it
+nextjs,sort_settled_ms,6,142,superseded-method,earlier interval-timer detection (throttle-exposed); consistent with MC set; superseded by it
+nextjs,sort_settled_ms,7,2305,superseded-method,earlier interval-timer detection (throttle-exposed); consistent with MC set; superseded by it
+nextjs,sort_settled_ms,8,149,superseded-method,earlier interval-timer detection (throttle-exposed); consistent with MC set; superseded by it
+nextjs,sort_settled_ms,9,145,superseded-method,earlier interval-timer detection (throttle-exposed); consistent with MC set; superseded by it
+nextjs,sort_settled_ms,10,135,superseded-method,earlier interval-timer detection (throttle-exposed); consistent with MC set; superseded by it
+nextjs,sort_settled_ms,11,138,superseded-method,earlier interval-timer detection (throttle-exposed); consistent with MC set; superseded by it
+nextjs,sort_settled_ms,12,346,superseded-method,earlier interval-timer detection (throttle-exposed); consistent with MC set; superseded by it
+nextjs,sort_settled_ms,13,113,superseded-method,earlier interval-timer detection (throttle-exposed); consistent with MC set; superseded by it
+nextjs,sort_settled_ms,14,117,superseded-method,earlier interval-timer detection (throttle-exposed); consistent with MC set; superseded by it
+nextjs,sort_settled_ms,15,138,superseded-method,earlier interval-timer detection (throttle-exposed); consistent with MC set; superseded by it
+nextjs,sort_settled_ms,16,100,superseded-method,earlier interval-timer detection (throttle-exposed); consistent with MC set; superseded by it
+nextjs,sort_settled_ms,17,157,superseded-method,earlier interval-timer detection (throttle-exposed); consistent with MC set; superseded by it
+nextjs,sort_settled_ms,18,127,superseded-method,earlier interval-timer detection (throttle-exposed); consistent with MC set; superseded by it
+nextjs,sort_settled_ms,19,519,superseded-method,earlier interval-timer detection (throttle-exposed); consistent with MC set; superseded by it
+nextjs,sort_settled_ms,20,461,superseded-method,earlier interval-timer detection (throttle-exposed); consistent with MC set; superseded by it
+nextjs,sort_settled_ms,21,101,superseded-method,earlier interval-timer detection (throttle-exposed); consistent with MC set; superseded by it
+nextjs,sort_settled_ms,22,132,superseded-method,earlier interval-timer detection (throttle-exposed); consistent with MC set; superseded by it
+nextjs,sort_settled_ms,23,121,superseded-method,earlier interval-timer detection (throttle-exposed); consistent with MC set; superseded by it
+nextjs,sort_settled_ms,24,110,superseded-method,earlier interval-timer detection (throttle-exposed); consistent with MC set; superseded by it
+nextjs,sort_settled_ms,25,129,superseded-method,earlier interval-timer detection (throttle-exposed); consistent with MC set; superseded by it
+nextjs,sort_settled_ms,26,196,superseded-method,earlier interval-timer detection (throttle-exposed); consistent with MC set; superseded by it
+nextjs,sort_settled_ms,27,138,superseded-method,earlier interval-timer detection (throttle-exposed); consistent with MC set; superseded by it
+nextjs,sort_settled_ms,28,158,superseded-method,earlier interval-timer detection (throttle-exposed); consistent with MC set; superseded by it
+nextjs,sort_settled_ms,29,106,superseded-method,earlier interval-timer detection (throttle-exposed); consistent with MC set; superseded by it
+nextjs,sort_settled_ms,30,104,superseded-method,earlier interval-timer detection (throttle-exposed); consistent with MC set; superseded by it
+nextjs,page_jump_settled_ms,1,112,superseded-method,earlier interval-timer detection; superseded by MC set
+nextjs,page_jump_settled_ms,2,155,superseded-method,earlier interval-timer detection; superseded by MC set
+nextjs,page_jump_settled_ms,3,168,superseded-method,earlier interval-timer detection; superseded by MC set
+nextjs,page_jump_settled_ms,4,114,superseded-method,earlier interval-timer detection; superseded by MC set
+nextjs,page_jump_settled_ms,5,105,superseded-method,earlier interval-timer detection; superseded by MC set
+nextjs,page_jump_settled_ms,6,121,superseded-method,earlier interval-timer detection; superseded by MC set
+nextjs,page_jump_settled_ms,7,109,superseded-method,earlier interval-timer detection; superseded by MC set
+nextjs,page_jump_settled_ms,8,128,superseded-method,earlier interval-timer detection; superseded by MC set
+nextjs,page_jump_settled_ms,9,151,superseded-method,earlier interval-timer detection; superseded by MC set
+nextjs,page_jump_settled_ms,10,146,superseded-method,earlier interval-timer detection; superseded by MC set
+nextjs,page_jump_settled_ms,11,118,superseded-method,earlier interval-timer detection; superseded by MC set
+nextjs,page_jump_settled_ms,12,135,superseded-method,earlier interval-timer detection; superseded by MC set
+nextjs,page_jump_settled_ms,13,99,superseded-method,earlier interval-timer detection; superseded by MC set
+nextjs,page_jump_settled_ms,14,151,superseded-method,earlier interval-timer detection; superseded by MC set
+nextjs,page_jump_settled_ms,15,120,superseded-method,earlier interval-timer detection; superseded by MC set
+nextjs,page_jump_settled_ms,16,125,superseded-method,earlier interval-timer detection; superseded by MC set
+nextjs,page_jump_settled_ms,17,111,superseded-method,earlier interval-timer detection; superseded by MC set
+nextjs,page_jump_settled_ms,18,130,superseded-method,earlier interval-timer detection; superseded by MC set
+nextjs,page_jump_settled_ms,19,146,superseded-method,earlier interval-timer detection; superseded by MC set
+nextjs,page_jump_settled_ms,20,140,superseded-method,earlier interval-timer detection; superseded by MC set
+nextjs,page_jump_settled_ms,21,126,superseded-method,earlier interval-timer detection; superseded by MC set
+nextjs,page_jump_settled_ms,22,134,superseded-method,earlier interval-timer detection; superseded by MC set
+nextjs,page_jump_settled_ms,23,138,superseded-method,earlier interval-timer detection; superseded by MC set
+nextjs,page_jump_settled_ms,24,129,superseded-method,earlier interval-timer detection; superseded by MC set
+nextjs,page_jump_settled_ms,25,302,superseded-method,earlier interval-timer detection; superseded by MC set
+nextjs,page_jump_settled_ms,26,164,superseded-method,earlier interval-timer detection; superseded by MC set
+nextjs,page_jump_settled_ms,27,311,superseded-method,earlier interval-timer detection; superseded by MC set
+nextjs,page_jump_settled_ms,28,163,superseded-method,earlier interval-timer detection; superseded by MC set
+nextjs,page_jump_settled_ms,29,117,superseded-method,earlier interval-timer detection; superseded by MC set
+nextjs,page_jump_settled_ms,30,118,superseded-method,earlier interval-timer detection; superseded by MC set
+nextjs,toggle_row_quiet600_ms,1,3,superseded-method,row-scoped 600ms quiet-window definition; occasionally catches the server revalidation wave; superseded by first-mutation definition used on both sides
+nextjs,toggle_row_quiet600_ms,2,5,superseded-method,row-scoped 600ms quiet-window definition; occasionally catches the server revalidation wave; superseded by first-mutation definition used on both sides
+nextjs,toggle_row_quiet600_ms,3,9,superseded-method,row-scoped 600ms quiet-window definition; occasionally catches the server revalidation wave; superseded by first-mutation definition used on both sides
+nextjs,toggle_row_quiet600_ms,4,7,superseded-method,row-scoped 600ms quiet-window definition; occasionally catches the server revalidation wave; superseded by first-mutation definition used on both sides
+nextjs,toggle_row_quiet600_ms,5,9,superseded-method,row-scoped 600ms quiet-window definition; occasionally catches the server revalidation wave; superseded by first-mutation definition used on both sides
+nextjs,toggle_row_quiet600_ms,6,8,superseded-method,row-scoped 600ms quiet-window definition; occasionally catches the server revalidation wave; superseded by first-mutation definition used on both sides
+nextjs,toggle_row_quiet600_ms,7,4,superseded-method,row-scoped 600ms quiet-window definition; occasionally catches the server revalidation wave; superseded by first-mutation definition used on both sides
+nextjs,toggle_row_quiet600_ms,8,7,superseded-method,row-scoped 600ms quiet-window definition; occasionally catches the server revalidation wave; superseded by first-mutation definition used on both sides
+nextjs,toggle_row_quiet600_ms,9,317,superseded-method,row-scoped 600ms quiet-window definition; occasionally catches the server revalidation wave; superseded by first-mutation definition used on both sides
+nextjs,toggle_row_quiet600_ms,10,330,superseded-method,row-scoped 600ms quiet-window definition; occasionally catches the server revalidation wave; superseded by first-mutation definition used on both sides
+nextjs,toggle_row_quiet600_ms,11,10,superseded-method,row-scoped 600ms quiet-window definition; occasionally catches the server revalidation wave; superseded by first-mutation definition used on both sides
+nextjs,toggle_row_quiet600_ms,12,9,superseded-method,row-scoped 600ms quiet-window definition; occasionally catches the server revalidation wave; superseded by first-mutation definition used on both sides
+nextjs,toggle_row_quiet600_ms,13,6,superseded-method,row-scoped 600ms quiet-window definition; occasionally catches the server revalidation wave; superseded by first-mutation definition used on both sides
+nextjs,toggle_row_quiet600_ms,14,560,superseded-method,row-scoped 600ms quiet-window definition; occasionally catches the server revalidation wave; superseded by first-mutation definition used on both sides
+nextjs,toggle_row_quiet600_ms,15,7,superseded-method,row-scoped 600ms quiet-window definition; occasionally catches the server revalidation wave; superseded by first-mutation definition used on both sides
+nextjs,toggle_row_quiet600_ms,16,7,superseded-method,row-scoped 600ms quiet-window definition; occasionally catches the server revalidation wave; superseded by first-mutation definition used on both sides
+nextjs,toggle_row_quiet600_ms,17,10,superseded-method,row-scoped 600ms quiet-window definition; occasionally catches the server revalidation wave; superseded by first-mutation definition used on both sides
+nextjs,toggle_row_quiet600_ms,18,13,superseded-method,row-scoped 600ms quiet-window definition; occasionally catches the server revalidation wave; superseded by first-mutation definition used on both sides
+nextjs,toggle_row_quiet600_ms,19,335,superseded-method,row-scoped 600ms quiet-window definition; occasionally catches the server revalidation wave; superseded by first-mutation definition used on both sides
+nextjs,toggle_row_quiet600_ms,20,11,superseded-method,row-scoped 600ms quiet-window definition; occasionally catches the server revalidation wave; superseded by first-mutation definition used on both sides
+nextjs,toggle_row_quiet600_ms,21,8,superseded-method,row-scoped 600ms quiet-window definition; occasionally catches the server revalidation wave; superseded by first-mutation definition used on both sides
+nextjs,toggle_row_quiet600_ms,22,9,superseded-method,row-scoped 600ms quiet-window definition; occasionally catches the server revalidation wave; superseded by first-mutation definition used on both sides
+nextjs,toggle_row_quiet600_ms,23,10,superseded-method,row-scoped 600ms quiet-window definition; occasionally catches the server revalidation wave; superseded by first-mutation definition used on both sides
+nextjs,toggle_row_quiet600_ms,24,11,superseded-method,row-scoped 600ms quiet-window definition; occasionally catches the server revalidation wave; superseded by first-mutation definition used on both sides
+nextjs,coldload_rows_present_ms,1,384,excluded-artifact,"hidden-tab timer throttling delayed observer attach to ~1s; values reflect attach latency, not content timing"
+nextjs,coldload_rows_present_ms,2,996,excluded-artifact,"hidden-tab timer throttling delayed observer attach to ~1s; values reflect attach latency, not content timing"
+nextjs,coldload_rows_present_ms,3,1000,excluded-artifact,"hidden-tab timer throttling delayed observer attach to ~1s; values reflect attach latency, not content timing"
+nextjs,coldload_rows_present_ms,4,1000,excluded-artifact,"hidden-tab timer throttling delayed observer attach to ~1s; values reflect attach latency, not content timing"
+nextjs,coldload_rows_present_ms,5,999,excluded-artifact,"hidden-tab timer throttling delayed observer attach to ~1s; values reflect attach latency, not content timing"
+nextjs,coldload_rows_present_ms,6,998,excluded-artifact,"hidden-tab timer throttling delayed observer attach to ~1s; values reflect attach latency, not content timing"
+nextjs,coldload_rows_present_ms,7,999,excluded-artifact,"hidden-tab timer throttling delayed observer attach to ~1s; values reflect attach latency, not content timing"
+nextjs,coldload_rows_present_ms,8,999,excluded-artifact,"hidden-tab timer throttling delayed observer attach to ~1s; values reflect attach latency, not content timing"
+nextjs,coldload_rows_present_ms,9,999,excluded-artifact,"hidden-tab timer throttling delayed observer attach to ~1s; values reflect attach latency, not content timing"
+nextjs,coldload_rows_present_ms,10,998,excluded-artifact,"hidden-tab timer throttling delayed observer attach to ~1s; values reflect attach latency, not content timing"
+nextjs,toggle_body_quiet250_ms,1,4,discarded-corrupt,body-scoped observer + hidden-tab throttling: live payment feed chain-extended quiet windows; bimodal garbage
+nextjs,toggle_body_quiet250_ms,2,10,discarded-corrupt,body-scoped observer + hidden-tab throttling: live payment feed chain-extended quiet windows; bimodal garbage
+nextjs,toggle_body_quiet250_ms,3,8,discarded-corrupt,body-scoped observer + hidden-tab throttling: live payment feed chain-extended quiet windows; bimodal garbage
+nextjs,toggle_body_quiet250_ms,4,8,discarded-corrupt,body-scoped observer + hidden-tab throttling: live payment feed chain-extended quiet windows; bimodal garbage
+nextjs,toggle_body_quiet250_ms,5,8,discarded-corrupt,body-scoped observer + hidden-tab throttling: live payment feed chain-extended quiet windows; bimodal garbage
+nextjs,toggle_body_quiet250_ms,6,11870,discarded-corrupt,body-scoped observer + hidden-tab throttling: live payment feed chain-extended quiet windows; bimodal garbage
+nextjs,toggle_body_quiet250_ms,7,5,discarded-corrupt,body-scoped observer + hidden-tab throttling: live payment feed chain-extended quiet windows; bimodal garbage
+nextjs,toggle_body_quiet250_ms,8,11,discarded-corrupt,body-scoped observer + hidden-tab throttling: live payment feed chain-extended quiet windows; bimodal garbage
+nextjs,toggle_body_quiet250_ms,9,12578,discarded-corrupt,body-scoped observer + hidden-tab throttling: live payment feed chain-extended quiet windows; bimodal garbage
+nextjs,toggle_body_quiet250_ms,10,599,discarded-corrupt,body-scoped observer + hidden-tab throttling: live payment feed chain-extended quiet windows; bimodal garbage
+nextjs,toggle_body_quiet250_ms,11,8,discarded-corrupt,body-scoped observer + hidden-tab throttling: live payment feed chain-extended quiet windows; bimodal garbage
+nextjs,toggle_body_quiet250_ms,12,5,discarded-corrupt,body-scoped observer + hidden-tab throttling: live payment feed chain-extended quiet windows; bimodal garbage
+nextjs,toggle_body_quiet250_ms,13,6,discarded-corrupt,body-scoped observer + hidden-tab throttling: live payment feed chain-extended quiet windows; bimodal garbage
+nextjs,toggle_body_quiet250_ms,14,11947,discarded-corrupt,body-scoped observer + hidden-tab throttling: live payment feed chain-extended quiet windows; bimodal garbage
+nextjs,toggle_body_quiet250_ms,15,953,discarded-corrupt,body-scoped observer + hidden-tab throttling: live payment feed chain-extended quiet windows; bimodal garbage
+nextjs,toggle_body_quiet250_ms,16,12289,discarded-corrupt,body-scoped observer + hidden-tab throttling: live payment feed chain-extended quiet windows; bimodal garbage
+nextjs,toggle_body_quiet250_ms,17,142,discarded-corrupt,body-scoped observer + hidden-tab throttling: live payment feed chain-extended quiet windows; bimodal garbage
+nextjs,toggle_body_quiet250_ms,18,13,discarded-corrupt,body-scoped observer + hidden-tab throttling: live payment feed chain-extended quiet windows; bimodal garbage
+nextjs,toggle_body_quiet250_ms,19,1341,discarded-corrupt,body-scoped observer + hidden-tab throttling: live payment feed chain-extended quiet windows; bimodal garbage
+nextjs,toggle_body_quiet250_ms,20,314,discarded-corrupt,body-scoped observer + hidden-tab throttling: live payment feed chain-extended quiet windows; bimodal garbage
+nextjs,toggle_body_quiet250_ms,21,19,discarded-corrupt,body-scoped observer + hidden-tab throttling: live payment feed chain-extended quiet windows; bimodal garbage
+nextjs,toggle_body_quiet250_ms,22,13,discarded-corrupt,body-scoped observer + hidden-tab throttling: live payment feed chain-extended quiet windows; bimodal garbage
+nextjs,toggle_body_quiet250_ms,23,13,discarded-corrupt,body-scoped observer + hidden-tab throttling: live payment feed chain-extended quiet windows; bimodal garbage
+nextjs,toggle_body_quiet250_ms,24,14,discarded-corrupt,body-scoped observer + hidden-tab throttling: live payment feed chain-extended quiet windows; bimodal garbage
+spynejs,sort_body_noise_ms,1,1754,discarded-corrupt,synthetic clicks on inner span did not reach the bound button -> NO sort occurred; series measures pure live-feed cadence
+spynejs,sort_body_noise_ms,2,1243,discarded-corrupt,synthetic clicks on inner span did not reach the bound button -> NO sort occurred; series measures pure live-feed cadence
+spynejs,sort_body_noise_ms,3,4213,discarded-corrupt,synthetic clicks on inner span did not reach the bound button -> NO sort occurred; series measures pure live-feed cadence
+spynejs,sort_body_noise_ms,4,2212,discarded-corrupt,synthetic clicks on inner span did not reach the bound button -> NO sort occurred; series measures pure live-feed cadence
+spynejs,sort_body_noise_ms,5,4256,discarded-corrupt,synthetic clicks on inner span did not reach the bound button -> NO sort occurred; series measures pure live-feed cadence
+spynejs,sort_body_noise_ms,6,4208,discarded-corrupt,synthetic clicks on inner span did not reach the bound button -> NO sort occurred; series measures pure live-feed cadence
+spynejs,sort_body_noise_ms,7,1167,discarded-corrupt,synthetic clicks on inner span did not reach the bound button -> NO sort occurred; series measures pure live-feed cadence
+spynejs,sort_body_noise_ms,8,2241,discarded-corrupt,synthetic clicks on inner span did not reach the bound button -> NO sort occurred; series measures pure live-feed cadence
+spynejs,sort_body_noise_ms,9,1175,discarded-corrupt,synthetic clicks on inner span did not reach the bound button -> NO sort occurred; series measures pure live-feed cadence
+spynejs,sort_body_noise_ms,10,2197,discarded-corrupt,synthetic clicks on inner span did not reach the bound button -> NO sort occurred; series measures pure live-feed cadence
+spynejs,sort_body_noise_ms,11,1192,discarded-corrupt,synthetic clicks on inner span did not reach the bound button -> NO sort occurred; series measures pure live-feed cadence
+spynejs,sort_body_noise_ms,12,2486,discarded-corrupt,synthetic clicks on inner span did not reach the bound button -> NO sort occurred; series measures pure live-feed cadence
+spynejs,sort_body_noise_ms,13,6231,discarded-corrupt,synthetic clicks on inner span did not reach the bound button -> NO sort occurred; series measures pure live-feed cadence
+spynejs,sort_body_noise_ms,14,2228,discarded-corrupt,synthetic clicks on inner span did not reach the bound button -> NO sort occurred; series measures pure live-feed cadence
+spynejs,sort_body_noise_ms,15,1220,discarded-corrupt,synthetic clicks on inner span did not reach the bound button -> NO sort occurred; series measures pure live-feed cadence
+spynejs,sort_body_noise_ms,16,2203,discarded-corrupt,synthetic clicks on inner span did not reach the bound button -> NO sort occurred; series measures pure live-feed cadence
+spynejs,sort_body_noise_ms,17,1162,discarded-corrupt,synthetic clicks on inner span did not reach the bound button -> NO sort occurred; series measures pure live-feed cadence
+spynejs,sort_body_noise_ms,18,2222,discarded-corrupt,synthetic clicks on inner span did not reach the bound button -> NO sort occurred; series measures pure live-feed cadence
+spynejs,sort_body_noise_ms,19,1157,discarded-corrupt,synthetic clicks on inner span did not reach the bound button -> NO sort occurred; series measures pure live-feed cadence
+spynejs,sort_body_noise_ms,20,2201,discarded-corrupt,synthetic clicks on inner span did not reach the bound button -> NO sort occurred; series measures pure live-feed cadence
+spynejs,sort_table_noise_ms,1,1399,discarded-corrupt,"same cause as above (no sort applied), table-scoped; pure live-feed cadence"
+spynejs,sort_table_noise_ms,2,2209,discarded-corrupt,"same cause as above (no sort applied), table-scoped; pure live-feed cadence"
+spynejs,sort_table_noise_ms,3,1180,discarded-corrupt,"same cause as above (no sort applied), table-scoped; pure live-feed cadence"
+spynejs,sort_table_noise_ms,4,2208,discarded-corrupt,"same cause as above (no sort applied), table-scoped; pure live-feed cadence"
+spynejs,sort_table_noise_ms,5,1160,discarded-corrupt,"same cause as above (no sort applied), table-scoped; pure live-feed cadence"
+spynejs,sort_table_noise_ms,6,2208,discarded-corrupt,"same cause as above (no sort applied), table-scoped; pure live-feed cadence"
+spynejs,sort_table_noise_ms,7,1208,discarded-corrupt,"same cause as above (no sort applied), table-scoped; pure live-feed cadence"
+spynejs,sort_table_noise_ms,8,2207,discarded-corrupt,"same cause as above (no sort applied), table-scoped; pure live-feed cadence"
+spynejs,sort_table_noise_ms,9,1197,discarded-corrupt,"same cause as above (no sort applied), table-scoped; pure live-feed cadence"
+spynejs,sort_table_noise_ms,10,2237,discarded-corrupt,"same cause as above (no sort applied), table-scoped; pure live-feed cadence"
+spynejs,sort_table_noise_ms,11,1217,discarded-corrupt,"same cause as above (no sort applied), table-scoped; pure live-feed cadence"
+spynejs,sort_table_noise_ms,12,2194,discarded-corrupt,"same cause as above (no sort applied), table-scoped; pure live-feed cadence"
+spynejs,sort_table_noise_ms,13,1165,discarded-corrupt,"same cause as above (no sort applied), table-scoped; pure live-feed cadence"
+spynejs,sort_table_noise_ms,14,4166,discarded-corrupt,"same cause as above (no sort applied), table-scoped; pure live-feed cadence"
+spynejs,sort_table_noise_ms,15,4195,discarded-corrupt,"same cause as above (no sort applied), table-scoped; pure live-feed cadence"
+spynejs,sort_table_noise_ms,16,2140,discarded-corrupt,"same cause as above (no sort applied), table-scoped; pure live-feed cadence"
+spynejs,sort_table_noise_ms,17,1153,discarded-corrupt,"same cause as above (no sort applied), table-scoped; pure live-feed cadence"
+spynejs,sort_table_noise_ms,18,2193,discarded-corrupt,"same cause as above (no sort applied), table-scoped; pure live-feed cadence"
+spynejs,sort_table_noise_ms,19,4192,discarded-corrupt,"same cause as above (no sort applied), table-scoped; pure live-feed cadence"
+spynejs,sort_table_noise_ms,20,1252,discarded-corrupt,"same cause as above (no sort applied), table-scoped; pure live-feed cadence"
